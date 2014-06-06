@@ -25,6 +25,7 @@ namespace MonoTouch.UIToolkit.Demo
 
             var animations = new List<StringElement>();
             animations.Add(new StringElement("Pulsing Halo", delegate { Navigate<PulsingHaloViewController>(); }));
+            animations.Add(new StringElement("Shake", delegate { Navigate<ViewShakerViewController>(); }));
 
             var animationsSection = new Section("Animations") { animations.OrderBy(e => e.Caption) };
             root.Add(animationsSection);

@@ -79,6 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\ViewShakerViewController.cs" />
     <Compile Include="Views\PulsingHaloViewController.cs" />
     <Compile Include="Views\RootViewController.cs" />
     <BundleResource Include="Resources\Default.png" />
@@ -94,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\iPhone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MonoTouch.UIToolkit\MonoTouch.UIToolkit.csproj">
+      <Project>{43ff5620-4aaf-4dfb-82a8-ff1bf0bcc4f2}</Project>
+      <Name>MonoTouch.UIToolkit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
 </Project>
