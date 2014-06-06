@@ -1,12 +1,11 @@
 MonoTouch.UIToolkit
 ===================
 
-Miscellaneous User Interface elements for Xamarin.iOS
+Miscellaneous User Interface components for Xamarin.iOS
 
 
-Animations
-==========
+##Animations
 
-Pulsing Halo - Based on https://github.com/shu223/PulsingHalo
+Pulsing Halo - based on https://github.com/shu223/PulsingHalo
 
 
